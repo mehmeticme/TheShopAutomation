@@ -20,8 +20,8 @@ Feature: As a user I want to login to shopping website and add items to my Cart
 
     Examples:
     | filterName        |              productName              |    expectedItemName                     |
-    | Nike              | Nike Running Shoes                    |   Nike Running Shoes                    |
+    | Adidas            | Adidas Kaptir 2.0                     |   Adidas Kaptir 2.0                     |
     | DressBarn         | Secret Agent Pants - Average Length   |   Secret Agent Pants - Average Length   |
-    | Alexis            | Alexis Women's Linea Dress            |   Alexis Women's Linea Dress            |
+    | Athlete           | Sundown Sweatshirt                    |   Sundown Sweatshirt                    |
 
 

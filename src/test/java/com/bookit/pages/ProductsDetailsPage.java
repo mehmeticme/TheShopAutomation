@@ -28,7 +28,7 @@ public class ProductsDetailsPage {
     }
 
     public void clickOnBrandByTitle(String titleName){
-        Driver.getDriver().findElement(By.xpath("//div[contains(@class,'show')]//h4[contains(text(),'"+titleName+"')]//..//../a")).click();
+        Driver.getDriver().findElement(By.xpath("//div[contains(@class,'show')]//h6[contains(text(),'"+titleName+"')]//..//../a")).click();
     }
 
 
