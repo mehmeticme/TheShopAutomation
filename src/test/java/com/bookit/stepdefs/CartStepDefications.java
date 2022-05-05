@@ -18,7 +18,7 @@ public class CartStepDefications {
     @Then("I click on remove button for {string}")
     public void i_click_on_remove_button_for(String productName) throws InterruptedException {
         myCartPage.getRemoveButtonByItemName(productName).click();
-        Thread.sleep(1000);
+        Thread.sleep(2000);
     }
 
     @Then("I validate that {string} is removed from my cart successfully")

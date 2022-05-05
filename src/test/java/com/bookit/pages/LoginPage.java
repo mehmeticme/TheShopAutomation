@@ -17,13 +17,13 @@ public class LoginPage {
     @FindBy(id ="id_username" )
     public WebElement usernameField;
 
-    @FindBy(id = "id_password")
+    @FindBy(id = "pass")
     public  WebElement passwordField;
 
-    @FindBy(xpath = "//button[text()='Login']")
+    @FindBy(xpath = "//input[@value='Sign In']")
     public  WebElement loginButton;
 
-    @FindBy(xpath = "//div[@class='card-body']//strong")
+    @FindBy(xpath = "//div[@class='sign-in-htm']//strong")
     public  WebElement invalidLoginErrorMessage;
 }
 

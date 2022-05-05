@@ -36,7 +36,7 @@ public class SignUpPage {
     @FindBy(id="id_phone")
     public WebElement phoneField;
 
-    @FindBy(xpath="//button[text()='Sign Up']")
+    @FindBy(xpath="//input[@value='Sign Up']")
     public WebElement signUpSubmitButton;
 
 

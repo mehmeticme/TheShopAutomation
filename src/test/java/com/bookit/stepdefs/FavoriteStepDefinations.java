@@ -17,7 +17,7 @@ public class FavoriteStepDefinations {
     @Then("I click on favorite button to add it to my favorite")
     public void i_click_on_favorite_button_to_add_it_to_my_favorite() throws InterruptedException {
        myCartPage.favoriteButton.click();
-       Thread.sleep(1000);
+       Thread.sleep(2000);
     }
 
     @Then("I click on My Favorites from navigation bar")
