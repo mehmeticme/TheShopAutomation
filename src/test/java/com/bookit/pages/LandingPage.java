@@ -14,4 +14,6 @@ public class LandingPage {
 
     @FindBy(xpath="//button[text()='Start Shopping']")
     public WebElement startShoppingButton;
+
+
 }

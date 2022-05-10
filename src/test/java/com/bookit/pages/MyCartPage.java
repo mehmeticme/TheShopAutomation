@@ -32,5 +32,26 @@ public class MyCartPage {
     @FindBy(xpath="//button[text()=' Unfavorite']")
     public WebElement unFavoriteButton;
 
+    @FindBy(name="email")
+    public WebElement emailField;
+
+    @FindBy(name="nickname")
+    public WebElement nameField;
+
+    @FindBy(name="cardnumber")
+    public WebElement cardNumber;
+
+    @FindBy(name="exp-date")
+    public WebElement expDate;
+
+    @FindBy(name="cvc")
+    public WebElement cvc;
+
+    @FindBy(name="postal")
+    public WebElement zipCode;
+
+
+    @FindBy(xpath="//input[@value='Submit Payment']")
+    public WebElement submitButton;
 
 }

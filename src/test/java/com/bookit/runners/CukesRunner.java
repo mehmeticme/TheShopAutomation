@@ -6,7 +6,7 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        tags = "@regression",
+        tags = "@checkOut",
         features = "src/test/resources/features",
         glue = "com/bookit/stepdefs",
 
